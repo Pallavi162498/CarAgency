@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Available Cars to Rent</title>
+</head>
+<body>
+
+<div class="container">
+    <div id="availableCars" class="car-list-container">
+        <!-- Available cars will be dynamically populated here -->
+    </div>
+
+    <div id="rentCarModal" class="modal">
+        <div class="modal-content">
+            <Form action="AddCar.php" method="post">
+            <span class="close" onclick="closeRentCarModal()">&times;</span>
+            <h2>Rent Car</h2>
+            <label for="rentDays">Number of Days:</label>
+            <input type="number" id="rentDays" name="rentDays">
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate">
+            <button onclick="rentCar()">Rent Car</button>
+        </Form>
+        </div>
+    </div>
+</div>
+
+<script src="Avail.js"></script>
+
+</body>
+</html>

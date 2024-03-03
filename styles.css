@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Panel one */
+.heading {
+    color: darkviolet;
+    text-align: center;
+    margin-top: 10vh;
+}
+.container-one {
+    color: white;
+    margin-top: 40vh;
+    padding-left: 10px;
+    text-align: center;
+
+}
+.login-container{
+    margin-top: 50px;
+}
+body {
+    background-color:black;
+}
+
+button {
+    background-color:green;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 10px 10px 10px 10px;
+   
+}
+
+/* Panel two */
+
+.container-two {
+    color: white;
+    margin-top: 20px;
+    padding-left: 10px;
+    text-align: center;    
+    
+}
+
+.avilable-car{
+    background-color: indigo;
+}
+
+/* Customer Registration */
+
+.heading-two{
+    color: white;
+    font-size: 40px;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    margin-top: 40vh;
+}
+
+.form-container{
+    font-size: 20px;
+}
